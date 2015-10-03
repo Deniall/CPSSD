@@ -1,0 +1,5 @@
+Build a grid-based game. A grid will be made up of r x c squares. The grid will be used to play the following game:
+
+Initially, when created, a grid of squares will have each square ‘turned off’.
+A square on the grid can be ‘selected’ by specifying its row-column co-ordinates.
+When a square is ‘selected’, it will turn on (if it's off), or off (if it's on), as will each of the neighbouring squares (i.e. immediately above, below, to the left and to the right, if they exist; there is no effect in a diagonal direction); i.e. neighbouring squares will each turn on (if off), or off (if on). The objective of the game is to turn on all the squares.
