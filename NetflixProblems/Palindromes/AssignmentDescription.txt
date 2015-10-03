@@ -1,0 +1,47 @@
+A palindrome is a string that reads the same forwards as backwards, e.g. radar. Write a recursive function which checks whether a string is a palindrome. Write an iterative function which checks whether a string is a palindrome. Your program should be case-insensitive.
+
+Sample Input:
+
+MadamImAdam
+
+Sample Output:
+
+YES
+
+Sample Input:
+
+modemimodem
+
+Sample Output:
+
+NO
+
+PART TWO:
+
+An anagram of a string X is another string that contains the same letters as X but not necessarily in the same order, e.g. the word angle is an anagram of glean. Write a program which takes in a string and figures out whether any anagram of the string can be a palindrome.
+
+Your program should be case-insensitive.
+
+Sample Input:
+
+aaabbbb
+
+Sample Output:
+
+YES
+
+Sample Input:
+
+aaAbbbB
+
+Sample Output:
+
+YES
+
+Sample Input:
+
+xdefthmnorqrstuvw
+
+Sample Output:
+
+NO
