@@ -1,0 +1,31 @@
+Tom’s DIY store is struggling to compete against the big players in the market. He has decided to hold a sale. Write a program which calculates the percentage deduction for the shop items below:
+
+Before-sale prices:
+
+Boxes of any size screws are €2.50 each
+Sandpaper is 55c per sheet
+Lampshades are €30
+Picture frames are €7.99
+Paint brushes are €6.95
+Large tins of paint cost €34.50
+Small tins of paint cost €9.95
+Ceramic garden pots are all €10
+All plants are €7
+The following reductions apply to the bill:
+
+All paint is half price.
+All gardening products have 25% off.
+Total values of up to €50 get 5% off
+Total values of between €50 and €100 get 7.5% off
+Total values of between €100 and €250 get 10% off
+Anything over €250 gets a 15% reduction
+Note:
+
+Total value refers to the total cost off all goods including paint and gardening before any deductions. If the absolute total comes to 124 then the customer gets 50% off any paint purchases, 25% off gardening and 10% off all other purchases.
+The paint and gardening special offer cannot be combined with any other offer (e.g. this must be calculated separately; paint to the value of €34.50 is reduced to €17.25 and the 5-15% is not applied on top of this)
+Your program should take as input the customer’s shopping basket and print out:
+
+The total bill before deductions are applied
+The total deduction amount
+The final bill after deductions have been applied
+Test your program for as many scenarios as you can think of.
