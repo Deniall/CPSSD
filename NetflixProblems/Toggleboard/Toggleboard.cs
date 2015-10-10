@@ -15,23 +15,16 @@ namespace Toggleboard
             Console.Write("Please type the number of rows you want and press enter: ");
             string rws = Console.ReadLine();
             int rows;
-            if (int.TryParse(rws, out rows))
-            {
-                //if the user enters anything BUT an integer the program just restarts
-            }
+            if (int.TryParse(rws, out rows)){}
             else { Main(); }
             
-
 
             //...and the number of columns.
             Console.Write("Please type the number of columns you want and press enter: ");
             string cols = Console.ReadLine();
             int columns;
-            if (int.TryParse(cols, out columns))
-            {
-                // same thing again
-            }
-            else { Main(); };
+            if (int.TryParse(cols, out columns)){}
+            else {Main();};
             Console.Write(Environment.NewLine);
 
                 bool playgame = true; // while this is set to true, the game runs
@@ -118,4 +111,3 @@ namespace Toggleboard
         }
     }
 }
-
