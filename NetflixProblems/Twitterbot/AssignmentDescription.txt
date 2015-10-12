@@ -1,0 +1,5 @@
+Write a program that randomly generates English tweets. You can do this by generating random word sequences (<141 characters) from a collection of tweets but outputting only those word sequences that appear more likely. Note, however, that you cannot just copy full tweets.
+
+Try to make your twitterbot as human-like as possible. 
+
+Check out this very small corpus of tweets from the 2011 Irish General Election but see if you can get your hands on more tweets. Look here for some more inspiration
