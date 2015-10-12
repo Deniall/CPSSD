@@ -1,0 +1,16 @@
+Black and white pegs have been placed in holes in a wooden board; see Fig. 1 for an example. This example wooden board has 11 round holes - all in a line. 5 round black pegs have been inserted in the first 5 holes. Similarly, 5 round white pegs have been inserted in the last 5 holes. This leaves a vacant hole in the 6th (middle slot).
+
+11-hole Pegboard
+
+
+The task is to interchange the black and white pegs so that white pegs occupy the first 5 holes and black pegs occupy the last 5 holes. However, movement of the pegs is restricted:
+
+You are only allowed to move a peg into an adjacent (neighbouring) empty hole or
+You can ‘jump’ a peg over another peg into an empty hole.
+Design and write a program that, if given the number of black (or white) pegs on such a board, will describe the moves needed to swap the coloured pegs in the minimum amount of moves. Assume that there is an equal number of black and white pegs.
+
+Sample Input:
+2
+
+Sample Output:
+8
