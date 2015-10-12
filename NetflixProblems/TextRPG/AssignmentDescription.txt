@@ -1,0 +1,1 @@
+With a text adventure game (such as Dungeons & Dragons), the computer maintains a virtual world and the user issues simple text commands to instruct  the computer. Implement a small game which contains examples of all the elements of play (locations, paths, weapons, etc.) and commands (move, pickup, etc.)  that your game can use
