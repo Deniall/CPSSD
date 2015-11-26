@@ -1,6 +1,6 @@
 import random
 import twitterbot
-file_ = open('C:\Users\Niall\Desktop\corpsmall.txt')
+file_ = open('C:\Users\Niall\Desktop\walden.txt')
 class Markov(object):
 	def __init__(self, open_file):
 		self.cache = {}

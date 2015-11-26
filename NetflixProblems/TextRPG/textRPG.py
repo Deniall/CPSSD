@@ -240,8 +240,12 @@ class Player(Character):
                     print "You walk, and walk, and walk.."
         
     def dance(self):
-        if self.state == 'fight': print "Your incredible Michael Flatley-esque moves leave your opponent in a trance-like state. However, you have just delayed the inevitable. The %s, now slightly jealous of your moves, readies for another attack."%(self.enemy.name)
-        if self.state == 'normal': print "You tap your feet against the ground half-heartedly but your soul isn't in it. Maybe wait for a fight.."
+        if self.state == 'fight':
+            print "Your incredible Michael Flatley-esque moves leave your opponent in a trance-like state. However, you have just delayed the inevitable. The %s, now slightly jealous of your moves, readies for another attack."%(self.enemy.name)
+            self.flee()
+        elif self.state == 'normal':
+            print "You tap your feet against the ground half-heartedly but your soul isn't in it. Maybe wait for a fight.."
+            
 Commands = {
   'quit': Player.quit,
   'help': Player.help,
@@ -276,12 +280,17 @@ while(p.health > 0):
         p.health = 0
         break
     if p.South == 10:
+        print "Your body begins to break down due to lack of nutrients and sleep. You stumble to the ground, feeling your last breath leave your lungs. RIP."
         p.health = 0
         break
     if p.East == 10:
+        print "You catch sight in the horizon of the fabled wasteland city that people rumoured about for years. Hope rekindles in your heart, and you walk with a new fire in your step. You are safe."
+        print "You completed the game! Well done."
         p.health = 0
         break
     if p.West == 10:
+        print "You walk for what must be days until you come across a final relic of the old world; A .44 Magnum sidearm. You check the chamber- one bullet remaining. Taking this as a sign from the the godless barren wasteland, you expend the rest of your energy to put the gun to your head.."
+        print "RIP."
         p.health = 0
         break
     if len(args) > 0:
